@@ -95,8 +95,8 @@ public abstract class SkylarkSemantics {
           .incompatibleDisallowSlashOperator(false)
           .incompatibleNewActionsApi(false)
           .incompatiblePackageNameIsAFunction(false)
-          .incompatibleRemoveNativeGitRepository(false)
-          .incompatibleRemoveNativeHttpArchive(false)
+          .incompatibleRemoveNativeGitRepository(true)
+          .incompatibleRemoveNativeHttpArchive(true)
           .incompatibleStringIsNotIterable(false)
           .internalSkylarkFlagTestCanary(false)
           .build();
